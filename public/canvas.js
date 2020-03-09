@@ -23,7 +23,7 @@ board.addEventListener("mousemove", function (e) {
     if (isMouseDown == true) {
         console.log(ctx);
         ctx.lineTo(e.clientX, e.clientY-board.getBoundingClientRect().y);
-        ctx.stroke();
+        ctx.stroke();//drawing the line
         let x= e.clientX
         let y= e.clientY-board.getBoundingClientRect().y
         let point={
