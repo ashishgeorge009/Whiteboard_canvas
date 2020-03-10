@@ -23,7 +23,7 @@ input.addEventListener("change", function (e) {
 
 // ctx.lineWidth=2;
 let Activetool = "pencil";
-const pencilOptions = document.querySelector(".pencil");
+const pencilOptions = document.querySelector(".pencil");//eraser
 const eraserOptions = document.querySelector(".eraser");
 
 
